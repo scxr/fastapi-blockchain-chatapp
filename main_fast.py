@@ -6,7 +6,6 @@ from blockchain_model import Block, Blockchain
 from fastapi import FastAPI, Request
 from hashlib import sha256
 from pydantic import BaseModel
-from request_models import Post, Peer
 app = FastAPI()
 
 blockchain = Blockchain()
